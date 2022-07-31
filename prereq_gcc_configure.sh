@@ -16,9 +16,9 @@
 
 # Set compiler path and name
 export COMPILER_NAME=gcc
-export COMPILER_VERS=11.2
+export COMPILER_VERS=9.4.0
 
-export HOME=/home/hpc
+export HOME=/opt/jenkins
 export COMPILERHOME=${HOME}/apps/${COMPILER_NAME}/${COMPILER_VERS}
 export COMPILERBIN=${COMPILERHOME}/bin
 export COMPILERNAME=${COMPILER_NAME}`echo ${COMPILER_VERS} | tr -dc "[:digit:]"`
